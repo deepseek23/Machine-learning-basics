@@ -1,0 +1,53 @@
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Distribution / packaging
+build/
+dist/
+.eggs/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# IDEs and editors
+.idea/
+*.swp
+*.swo
+*.bak
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+
+# Testing / type checking
+.pytest_cache/
+.mypy_cache/
+
+# Common ML artifacts (models, checkpoints)
+models/
+checkpoints/
+runs/
+
+# Data folders (raw/large data); keep small CSVs if needed
+data/
+datasets/
